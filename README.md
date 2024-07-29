@@ -432,3 +432,8 @@ docker run --rm -it -p 8080:8080 \
 ```
 
 You can configure the agent using environment variables or Java system properties, see <https://opentelemetry.io/docs/instrumentation/java/automatic/agent-config/> for details.
+
+
+
+mvn org.springframework.boot:spring-boot-maven-plugin:run -Pboot -Dspring-boot.run.profiles=introspect-proxy
+
